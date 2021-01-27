@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Study Habits 101
+    Xiomara Watler
+    February 16, 2018
+    -->
+    <meta charset="utf-8" />
+    <title>Study Habits 101</title>
+    <link href="index_styles.css" rel="stylesheet" type="text/css" />
+    <link href="questionnaire.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align:center;">Study Habits 101</h1>
+      <img src="motavation.png.jpeg" alt="StudyHabits101"  class="center"/>
+    </header>
+    <nav id="grad">
+      <ul>
+         <li><a href="index.html">Home</a></li>
+        <li><a href="diff-subjects.html">Different Subjects</a></li>
+        <li><a href="ways-to-study.html">Ways to Study</a></li>
+        <li><a href="favorite-blogs.html">Study Blogs and Youtube Channels</a></li>
+        <li><a href="questionaire.html">Questionnaire</a></li>
+        <li><a href="health.html">Health</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="leisure.html">Leisure</a></li>
+      </ul>
+    </nav>
+    <hr>
+    
+    <section>
+      <h2>Study Habits Questionnaire</h2>
+      <p>This is a survey to test and review your study habits. This questionnaire is also designed to see what areas in your study habits you need to improve on.</p>
+      <article>
+      <form id="survey" name="survey" action="http://ftp.sunyrockland.edu/~laaron/form-processor.php" method="post">
+        
+        <fieldset id="studinfo">
+          <legend>Student Information</legend>
+          
+          <label for="firstname">First name:<br></label>
+          <input type="text" name="firstname" maxlength="10" id="firstname" placeholder="First Name" required="required" ><br>
+          
+          <label for="lastname">Last name:<br></label>
+          <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br>
+                 
+          
+          <label for="email">E-mail:<br></label>
+          <input name="email" id="email" type="email" required="required" />
+        </fieldset>
+        
+        <br />
+        
+        <fieldset id="timeman">
+          <legend>Time Management</legend>
+          
+          <p>Do you make a Master Schedule for each semester?</p>
+          <legend class="optionGroup">
+            <label for="schedAlways">Always</label>
+            <input type="radio" name="sched" id="schedAlways" value="Always" />
+            
+            <label for="schedGenerally">Generally</label>
+            <input type="radio" name="sched" id="schedGenerally" value="Generally" />
+            
+            <label for="schedSometimes">Sometimes</label>
+            <input type="radio" name="sched" id="schedSometimes" value="Sometimes" />
+        
+            <label for="schedRarely">Rarely</label>
+            <input type="radio" name="sched" id="schedRarely" value="Rarely" />
+          </legend>
+          <br />
+          <p>Do you update it weekly/daily?</p>
+          <legend class="optionGroup">
+            <label for="dateAlways">Always</label>
+            <input type="radio" name="date" id="dateAlways" value="Always" />
+            
+            <label for="dateGenerally">Generally</label>
+            <input type="radio" name="date" id="dateGenerally" value="Generally" />
+            
+            <label for="dateSometimes">Sometimes</label>
+            <input type="radio" name="date" id="dateSometimes" value="Sometimes" />
+            
+            <label for="dateRarely">Rarely</label>
+            <input type="radio" name="date" id="dateRarely" value="Rarely" />
+          </legend>
+          <br />
+          <p>Do you allow time for exercise and socializing with friends?</p>
+          <legend class="optionGroup">
+            <label for="freeAlways">Always</label>
+            <input type="radio" name="free" id="freeAlways" value="Always" />
+            
+            <label for="freeGenerally">Generally</label>
+            <input type="radio" name="free" id="freeGenerally" value="Generally" />
+            
+            <label for="freeSometimes">Sometimes</label>
+            <input type="radio" name="free" id="freeSometimes" value="Sometimes" />
+            
+            <label for="freeRarely">Rarely</label>
+            <input type="radio" name="free" id="freeRarely" value="Rarely" />
+          </legend>
+          <br />
+          <p>Do you complete your assignments on time?</p>
+          <legend class="optionGroup">
+            <label for="timeAlways">Always</label>
+            <input type="radio" name="time" id="timeAlways" value="Always" />
+            
+            <label for="timeGenerally">Generally</label>
+            <input type="radio" name="time" id="timeGenerally" value="Generally" />
+            
+            <label for="timeSometimes">Sometimes</label>
+            <input type="radio" name="time" id="timeSometimes" value="Sometimes" />
+            
+            <label for="timeRarely">Rarely</label>
+            <input type="radio" name="time" id="timeRarely" value="Rarely" />
+          </legend>
+        </fieldset>
+        
+        <br />
+        
+        <fieldset id="studyenviron">
+          <legend>Your Study Environment</legend>
+          
+          <p>Do you regularly study at the same time?</p>
+          <legend class="optionGroup">
+           
+            <label for="sameAlways">Always</label>
+            <input type="radio" name="same" id="sameAlways" value="Always" />
+            
+            <label for="sameGenerally">Generally</label>
+            <input type="radio" name="same" id="sameGenerally" value="Generally" />
+            
+            <label for="sameSometimes">Sometimes</label>
+            <input type="radio" name="same" id="sameSometimes" value="Sometimes" />
+            
+            <label for="sameRarely">Rarely</label>
+            <input type="radio" name="same" id="sameRarely" value="Rarely" />
+          </legend>
+          <br />
+          <p>Do you have an area where you always go to study and is free of noise and distractions?</p>
+          <legend class="optionGroup">
+            <label for="areaAlways">Always</label>
+            <input type="radio" name="area" id="areaAlways" value="Always" />
+            
+            <label for="areaGenerally">Generally</label>
+            <input type="radio" name="area" id="areaGenerally" value="Generally" />
+            
+            <label for="areaSometimes">Sometimes</label>
+            <input type="radio" name="area" id="areaSometimes" value="Sometimes" />
+            
+            <label for="areaRarely">Rarely</label>
+            <input type="radio" name="area" id="areaRarely" value="Rarely" />
+          </legend>
+          <br />
+          <p>Do you use your time between classes to study?</p>
+          <legend class="optionGroup">
+            <label for="btwnAlways">Always</label>
+            <input type="radio" name="btwn" id="btwnAlways" value="Always" />
+            
+            <label for="btwnGenerally">Generally</label>
+            <input type="radio" name="btwn" id="btwnGenerally" value="Generally" />
+            
+            <label for="btwnSometimes">Sometimes</label>
+            <input type="radio" name="btwn" id="btwnSometimes" value="Sometimes" />
+            
+            <label for="btwnRarely">Rarely</label>
+            <input type="radio" name="btwn" id="btwnRarely" value="Rarely" />
+          </legend>
+        </fieldset>
+        
+        <br />
+        
+        <fieldset id="testprep">
+            <legend>Test Preparation skills<br>(select all that apply)</legend>
+            
+            <label for="effortSelect">How well do you study?</label>
+            <select name="effortSelect" id="effortSelect" size="5" multiple="multiple">
+              <option value="daily">Study for each class daily</option>
+              <option value="review">Review for a test 3 days in advance</option>
+              <option value="group">Involved in a study group</option>
+              <option value="help">Seek extra help</option>
+              <option value="practice">Go over practice questions</option>
+              <option value="sessions">Attend review sessions</option>
+            </select>
+        </fieldset>
+        
+        <br />
+        
+        <fieldset id="conclusion">
+          <legend>Conclusion</legend>
+          
+          <label for="rate">Rate the questionnaire: (0 = poor; 10 = great)<br /></label>
+            <legend class="sliderLabel">0</legend>
+            <input name="rate" id="rate" type="range" value="5" min="0" max="10" step="1" />
+            <legend class="sliderLabel">10</legend>
+            
+          <br>
+          <br />
+          <label for="comments">Is "Study Habits 101" a helpful website? Explain.<br /></label>
+          <textarea name="comments" id="comments"></textarea>
+          <br>
+          <br />
+          <label id="newsletter">
+            <input type="checkbox" name="newscbx" />
+            Select the checkbox if you want to recieve updates and motivational quotes periodically
+          </label>
+        </fieldset>
+        
+        <p>
+          <input type="submit" value="Submit My Questionnaire" />
+          <input type="reset" value="Cancel" />
+        </p>
+      </form>
+    </article>
+    </section>
+    <footer>
+      <address>
+        <span>Xiomara Watler &#124; </span>
+        <span>Rockland Community College &#124;</span>
+        <span><a href="mailto:xwatler@sunyrockland.edu" id=email> xwatler@sunyrockland.edu</a></span></address>
+    </footer>
+  </body>
+</html>

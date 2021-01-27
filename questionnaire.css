@@ -1,0 +1,46 @@
+/*
+Study Habits Style Sheet
+Xiomara Watler
+03.25.2018 */
+
+/* Fieldset styles */
+fieldset{
+  border: 2px solid gray;
+  padding: 15px 40px 15px 30px;
+  margin-right:-20px;
+}
+legend{
+  font-size: 20px;
+}
+#studinfo{
+  width: 43%;
+}
+#timeman{
+  width: 43%;
+}
+#studyenviron{
+  width: 43%;
+
+}
+
+/* Test Prep styles */
+#testprep{
+  width: 43%;
+ 
+}
+select{
+  font-size: 15px;
+  padding: 6px 20px;
+  border: 1px solid black;
+}
+
+/* Conclusion styles */
+#conclusion{
+  width:70%;
+}
+textarea{
+ resize: none;
+ height: 150px;
+ width: 100%;
+}
+

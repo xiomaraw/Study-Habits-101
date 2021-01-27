@@ -1,0 +1,29 @@
+/* Ways to study style sheet
+  Xiomara Watler
+  03.15.2018
+*/
+
+/* Styles for table */
+table.studytime{
+  border: 10px outset rgb(186,188,190);
+  text-align: center;
+  width: 100%;
+}
+table.studytime th, table.studytime td{
+  border: 1px solid gray;
+}
+/*Styles for table body */
+table.studytime tbody td{
+  padding: 5px;
+}
+
+/*Styles for the table caption */
+table.studytime caption{
+  font-size: 1.5em;
+}
+
+/*Styles for the first column */
+table.studytime col.firstCol{
+  background-color: lightgray;
+  width: 7%;
+}
